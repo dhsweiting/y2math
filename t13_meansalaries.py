@@ -8,6 +8,5 @@ print("Total number of employees:", sum(num_employees))
 total_salaries = 0
 for i in range(len(weekly_salaries)):
   total_salaries += weekly_salaries[i] * num_employees[i]
-print("Total salary paid:", total_salaries)
+print("Total salary paid:")
 
-print("Mean weekly salary:", total_salaries / sum(num_employees))
